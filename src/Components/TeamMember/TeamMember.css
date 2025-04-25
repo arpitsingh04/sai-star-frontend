@@ -1,0 +1,50 @@
+.team-member {
+  background-color: var(--neutral-100);
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+}
+
+.team-member:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.member-image-container {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+
+.member-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-normal);
+}
+
+.team-member:hover .member-image {
+  transform: scale(1.05);
+}
+
+.member-info {
+  padding: var(--space-3);
+}
+
+.member-name {
+  margin-bottom: var(--space-1);
+  color: var(--secondary);
+}
+
+.member-role {
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: var(--space-2);
+}
+
+.member-bio {
+  color: var(--neutral-700);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}

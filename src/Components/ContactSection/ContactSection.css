@@ -1,0 +1,76 @@
+.contact-section {
+  margin-top: 3rem;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-align: center;
+ 
+}
+
+.contact-section{ background: linear-gradient(rgba(233, 66, 52, 0.9), rgba(233, 66, 52, 0.9))
+  
+}
+
+.contact-section h2{
+  color: white;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.contact-description {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #e8eef7;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: var(--secondary);
+  transform: translateY(-1px);
+  color: white;
+}
+
+.contact-button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 640px) {
+  .contact-section {
+    padding: 2rem 1rem;
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+  }
+  
+  .contact-description {
+    font-size: 1rem;
+  }
+  
+  .contact-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
