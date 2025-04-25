@@ -1,0 +1,163 @@
+/* Hero Section */
+.services-hero-section {
+  background-color: var(--secondary);
+  color: white;
+  padding: var(--space-8) 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.services-hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(233, 66, 52, 0.15) 0%, rgba(233, 66, 52, 0) 100%);
+  z-index: 1;
+}
+
+.services-hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.services-hero-section h1 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: var(--space-3);
+  position: relative;
+  display: inline-block;
+}
+
+.services-hero-section h1::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: var(--primary);
+}
+
+.services-subtitle {
+  font-size: 1.25rem !important;
+  max-width: 800px ;
+  margin: 0 auto !important;
+  color: white !important;
+}
+
+
+
+
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.services-tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  gap: 0.5rem;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.services-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.services-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: white;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.services-image-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.services-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.services-image:hover {
+  transform: scale(1.02);
+}
+
+.services-details {
+  padding: 2rem;
+}
+
+.services-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1F2937;
+  margin-bottom: 1rem;
+}
+
+.services-description {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #4B5563;
+  margin-bottom: 2rem;
+}
+
+.services-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin-bottom: 1.5rem;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .services-list {
+    flex-direction: row;
+  }
+  
+  .services-column {
+    flex: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .services-content {
+    flex-direction: row;
+  }
+  
+  .services-image-container {
+    width: 40%;
+    height: auto;
+  }
+  
+  .services-details {
+    width: 60%;
+  }
+}

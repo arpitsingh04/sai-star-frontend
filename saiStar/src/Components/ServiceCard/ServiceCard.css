@@ -1,0 +1,57 @@
+.service-card {
+  background-color: var(--neutral-100);
+  border-radius: var(--border-radius-md);
+  padding: var(--space-4);
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+  min-height: 280px;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.service-icon {
+  background-color: var(--primary-light);
+  color: var(--primary);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-3);
+}
+
+.service-title {
+  margin-bottom: var(--space-2);
+  color: var(--secondary);
+}
+
+.service-description {
+  color: var(--neutral-700);
+  line-height: 1.6;
+  margin-bottom: var(--space-3);
+  flex-grow: 1;
+}
+
+.service-link {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  align-self: flex-start;
+}
+
+.service-link::after {
+  content: "→";
+  margin-left: 5px;
+  transition: transform var(--transition-fast);
+}
+
+.service-link:hover::after {
+  transform: translateX(4px);
+}

@@ -1,0 +1,136 @@
+.footer {
+  background-color: var(--secondary);
+  color: var(--neutral-300);
+  padding-top: var(--space-6);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-4);
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: var(--space-2);
+  height: 60px;
+}
+
+.footer-logo img {
+  height: 100%;
+  object-fit: contain;
+  background-color: white;
+  padding: 5px;
+  border-radius: var(--border-radius-sm);
+}
+
+.company-info p {
+  margin-bottom: var(--space-2);
+  line-height: 1.6;
+}
+
+.social-links {
+  display: flex;
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: var(--neutral-300);
+  transition: all var(--transition-fast);
+}
+
+.social-links a:hover {
+  background-color: var(--primary);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.footer-column h3 {
+  color: white;
+  margin-bottom: var(--space-3);
+  position: relative;
+  padding-bottom: var(--space-1);
+}
+
+.footer-column h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background-color: var(--primary);
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: var(--space-2);
+}
+
+.footer-column ul li a {
+  color: var(--neutral-300);
+  transition: color var(--transition-fast);
+}
+
+.footer-column ul li a:hover {
+  color: var(--primary);
+}
+
+.contact-info ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-1);
+}
+
+.contact-info ul li svg {
+  margin-top: 4px;
+  color: var(--primary);
+}
+
+.footer-bottom {
+  margin-top: var(--space-6);
+  padding: var(--space-3) 0;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 992px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .company-info {
+    grid-column: span 2;
+    margin-bottom: var(--space-3);
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .company-info {
+    grid-column: span 1;
+  }
+  
+  .footer-column {
+    margin-bottom: var(--space-3);
+  }
+}
