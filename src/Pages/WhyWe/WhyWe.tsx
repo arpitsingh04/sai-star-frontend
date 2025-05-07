@@ -6,22 +6,26 @@ const WhyWe = () => {
   const stats = [
     {
       icon: Users,
-      number: '500+',
+      number: 500,
+      suffix: '+',
       label: 'Clients Served',
     },
     {
       icon: LineChart,
-      number: '15+',
+      number: 15,
+      suffix: '+',
       label: 'Years of Experience',
     },
     {
       icon: Award,
-      number: '98%',
+      number: 98,
+      suffix: '%',
       label: 'Client Satisfaction',
     },
     {
       icon: Target,
-      number: '250+',
+      number: 250,
+      suffix: '+',
       label: 'Successful Projects',
     },
   ];
@@ -48,6 +52,7 @@ const WhyWe = () => {
                 key={index}
                 icon={stat.icon}
                 number={stat.number}
+                suffix={stat.suffix}
                 label={stat.label}
               />
             ))}
