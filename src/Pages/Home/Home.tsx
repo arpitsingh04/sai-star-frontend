@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom';
 import { TrendingUp, BarChart3, Briefcase, Users, PieChart, Rocket } from 'lucide-react';
 import Button from '../../Components/Button/Button';
 import ServiceCard from '../../Components/ServiceCard/ServiceCard';
-import Testimonial from '../../Components/Testimonial/Testimonial';
+// import Testimonial from '../../Components/Testimonial/Testimonial';
+import ClientLogos from '../../Components/ClientLogos/ClientLogos';
 import TeamMember from '../../Components/TeamMember/TeamMember';
 import ContactSection from '../../Components/ContactSection/ContactSection';
 import './Home.css';
@@ -32,20 +33,20 @@ const Home = () => {
     },
   ];
 
-  const testimonials = [
-    {
-      name: 'Sarah Johnson',
-      company: 'TechNova Inc.',
-      image: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      testimonial: 'SAI STAR Consultancy transformed our business strategy, resulting in a 40% growth within just six months. Their expertise and personalized approach made all the difference.',
-    },
-    {
-      name: 'Michael Chen',
-      company: 'Global Logistics Ltd.',
-      image: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      testimonial: 'The operational excellence program designed by SAI STAR helped us reduce costs by 25% while improving service quality. I highly recommend their services.',
-    },
-  ];
+  // const testimonials = [
+  //   {
+  //     name: 'Sarah Johnson',
+  //     company: 'TechNova Inc.',
+  //     image: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  //     testimonial: 'SAI STAR Consultancy transformed our business strategy, resulting in a 40% growth within just six months. Their expertise and personalized approach made all the difference.',
+  //   },
+  //   {
+  //     name: 'Michael Chen',
+  //     company: 'Global Logistics Ltd.',
+  //     image: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  //     testimonial: 'The operational excellence program designed by SAI STAR helped us reduce costs by 25% while improving service quality. I highly recommend their services.',
+  //   },
+  // ];
 
   const teamMembers = [
     {
@@ -152,7 +153,7 @@ const Home = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section className="section testimonials-section">
+      {/* <section className="section testimonials-section">
         <div className="container">
           <h2 className="section-title">Client Success Stories</h2>
           <p className="section-subtitle">
@@ -170,7 +171,17 @@ const Home = () => {
             ))}
           </div>
         </div>
+      </section> */}
+      
+      <section className='section testimonials-section'>
+
+
+      <div className="container">
+
+      <ClientLogos />
+      </div>
       </section>
+
 
       {/* Team Section */}
       <section className="section team-section">

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Facebook, Twitter, Linkedin, Mail, Phone, MapPin, Clock } from 'lucide-react';
 import './Footer.css';
 import logo from '../../assets/Picture1.png';
+import styles from './Footer.module.css';
 
 const Footer = () => {
   return (
@@ -50,7 +51,8 @@ const Footer = () => {
           </ul>
         </div>
         
-        <div className="footer-column contact-info">
+        {/* <div className="footer-column contact-info"> */}
+        <div  className={`${styles.contactInfo} footer-column `}>
           <h3>Contact Us</h3>
           <ul>
             <li>

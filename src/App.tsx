@@ -6,9 +6,9 @@ import Home from './Pages/Home/Home';
 import ServicesSection from './Pages/ServicesSection/ServicesSection';
 import MyTeam from './Pages/MyTeam/MyTeam';
 import WhyWe from './Pages/WhyWe/WhyWe';
-import ContactUs from './Pages/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
+import ContactUs from './Pages/Contact/Contact';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);

@@ -131,11 +131,15 @@
 }
 
 /* Team Section */
+
+.team-section{
+  background: var(--neutral-200);
+}
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: var(--space-4);
-  margin-bottom: var(--space-4);
+  margin-bottom: var(--space-4);  
 }
 
 .team-cta {
@@ -144,6 +148,7 @@
 }
 
 /* Contact Section */
+
 /* .contact-section {
   background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), 
               url('https://images.pexels.com/photos/3184423/pexels-photo-3184423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');

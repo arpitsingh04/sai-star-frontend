@@ -13,6 +13,7 @@
 .footer-column {
   display: flex;
   flex-direction: column;
+  /* color: black ; */
 }
 
 .footer-logo {
@@ -92,10 +93,14 @@
   color: var(--primary);
 }
 
+/* .footer-column,h3{
+  color: black ;
+} */
 .contact-info ul li {
   display: flex;
   align-items: flex-start;
   gap: var(--space-1);
+ 
 }
 
 .contact-info ul li svg {
@@ -134,3 +139,13 @@
     margin-bottom: var(--space-3);
   }
 }
+
+
+
+/* .contact-info{
+  flex: 1;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+} */
