@@ -4,53 +4,53 @@ import './MyTeam.css';
 const MyTeam = () => {
   const teamMembers = [
     {
-      name: 'Gyan Singh',
-      role: 'CEO & Strategy Director',
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      name: 'Adv. Santosh K. Singh',
+      role: 'Legal Advisor  ',
+      image: './Team/Santosh.jpeg',
       bio: 'With over 20 years of experience in business strategy and management consulting, Dr. Foster leads our team with expertise in strategic planning, organizational development, and business transformation.',
     },
     {
-      name: 'kushi singh',
-      role: 'Financial Advisory Lead',
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      name: 'P.Mishra',
+      role: 'Financial Advisory LeadProperty & Insurance Matters',
+      image: './Team/P.Mishra.jpeg',
       bio: 'Jennifer brings 15+ years of experience in financial strategy, investment banking, and corporate finance. She specializes in helping businesses optimize their financial performance and secure growth capital.',
     },
-    {
-      name: 'Marcus Johnson',
-      role: 'Operations Excellence Director',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      bio: 'Marcus has transformed operations for companies across various industries. His expertise in process optimization, supply chain management, and lean methodologies drives significant efficiency improvements.',
-    },
-    {
-      name: 'Sophia Chen',
-      role: 'Digital Transformation Expert',
-      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      bio: 'Sophia leads our digital transformation practice with deep knowledge of emerging technologies, digital strategy, and change management to help businesses navigate the digital landscape successfully.',
-    },
-    {
-      name: 'Robert Williams',
-      role: 'Market Research Analyst',
-      image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      bio: 'Robert brings data-driven insights through advanced market research methodologies. His expertise in consumer behavior, market trends, and competitive analysis helps clients make informed strategic decisions.',
-    },
-    {
-      name: 'Amelia Rodriguez',
-      role: 'HR & Organizational Development',
-      image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      bio: 'Amelia specializes in organizational development, talent management, and leadership training. She helps clients build high-performing teams and create positive organizational cultures.',
-    },
-    {
-      name: 'James Wilson',
-      role: 'Sustainability Consultant',
-      image: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      bio: 'James helps organizations develop and implement sustainable business practices. His expertise spans ESG strategy, sustainable operations, and corporate social responsibility initiatives.',
-    },
-    {
-      name: 'Olivia Taylor',
-      role: 'Change Management Specialist',
-      image: 'https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      bio: 'Olivia guides organizations through complex transformations. Her expertise in change management, stakeholder engagement, and communications helps clients navigate transitions with minimal disruption.',
-    },
+    // {
+    //   name: 'Marcus Johnson',
+    //   role: 'Operations Excellence Director',
+    //   image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //   bio: 'Marcus has transformed operations for companies across various industries. His expertise in process optimization, supply chain management, and lean methodologies drives significant efficiency improvements.',
+    // },
+    // {
+    //   name: 'Sophia Chen',
+    //   role: 'Digital Transformation Expert',
+    //   image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //   bio: 'Sophia leads our digital transformation practice with deep knowledge of emerging technologies, digital strategy, and change management to help businesses navigate the digital landscape successfully.',
+    // },
+    // {
+    //   name: 'Robert Williams',
+    //   role: 'Market Research Analyst',
+    //   image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //   bio: 'Robert brings data-driven insights through advanced market research methodologies. His expertise in consumer behavior, market trends, and competitive analysis helps clients make informed strategic decisions.',
+    // },
+    // {
+    //   name: 'Amelia Rodriguez',
+    //   role: 'HR & Organizational Development',
+    //   image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //   bio: 'Amelia specializes in organizational development, talent management, and leadership training. She helps clients build high-performing teams and create positive organizational cultures.',
+    // },
+    // {
+    //   name: 'James Wilson',
+    //   role: 'Sustainability Consultant',
+    //   image: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //   bio: 'James helps organizations develop and implement sustainable business practices. His expertise spans ESG strategy, sustainable operations, and corporate social responsibility initiatives.',
+    // },
+    // {
+    //   name: 'Olivia Taylor',
+    //   role: 'Change Management Specialist',
+    //   image: 'https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //   bio: 'Olivia guides organizations through complex transformations. Her expertise in change management, stakeholder engagement, and communications helps clients navigate transitions with minimal disruption.',
+    // },
   ];
 
   return (

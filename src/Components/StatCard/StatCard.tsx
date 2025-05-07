@@ -1,5 +1,5 @@
 import './StatCard.css';
-import { DivideIcon as LucideIcon } from 'lucide-react';
+import { LucideIcon } from 'lucide-react';
 
 interface StatCardProps {
   icon: LucideIcon;

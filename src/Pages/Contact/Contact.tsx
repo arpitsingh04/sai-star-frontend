@@ -155,7 +155,7 @@
 
 // export default Contact;
 
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
@@ -201,11 +201,11 @@ function Contact() {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [captchaValid, setCaptchaValid] = useState(false);
+  // const [captchaValid, setCaptchaValid] = useState(false);
 
-  const handleCaptchaChange = (value: string | null) => {
-    setCaptchaValid(!!value);
-  };
+  // const handleCaptchaChange = (value: string | null) => {
+  //   setCaptchaValid(!!value);
+  // };
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -293,7 +293,7 @@ function Contact() {
         });
 
         // recaptchaRef.current?.reset();
-        setCaptchaValid(false);
+        // setCaptchaValid(false);
       } catch (error) {
         console.error("Email sending failed:", error);
         alert("Something went wrong. Please try again later.");

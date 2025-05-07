@@ -49,16 +49,16 @@ const Home = () => {
 
   const teamMembers = [
     {
-      name: 'Dr. Alan Foster',
-      role: 'Strategy Director',
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      bio: '15+ years of experience in strategic planning and business development across multiple industries.',
+      name: 'Adv. Santosh K. Singh',
+      role: 'Legal Advisor  ',
+      image: './Team/Santosh.jpeg',
+      bio: 'With over 20 years of experience in business strategy and management consulting, Dr. Foster leads our team with expertise in strategic planning, organizational development, and business transformation.',
     },
     {
-      name: 'Jennifer Lee',
-      role: 'Financial Advisor',
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      bio: 'Certified financial analyst with expertise in corporate finance, investment strategies, and risk management.',
+      name: 'P.Mishra',
+      role: 'Financial Advisory LeadProperty & Insurance Matters',
+      image: './Team/P.Mishra.jpeg',
+      bio: 'Jennifer brings 15+ years of experience in financial strategy, investment banking, and corporate finance. She specializes in helping businesses optimize their financial performance and secure growth capital.',
     },
   ];
 
