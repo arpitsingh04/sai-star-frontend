@@ -1,4 +1,4 @@
-import './ServiceTab.css';
+import styles from './ServiceTab.module.css';
 
 interface ServiceTabProps {
   id: string;
@@ -10,13 +10,14 @@ interface ServiceTabProps {
 const ServiceTab: React.FC<ServiceTabProps> = ({ id, icon, isActive, onClick }) => {
   return (
     <button 
-      className={`service-tab ${isActive ? 'service-tab-active' : ''}`}
+    className={`${styles.serviceTab} ${isActive ? styles.serviceTabActive : ''}`}
+
       onClick={onClick}
       aria-selected={isActive}
       role="tab"
     >
-      <span className="service-tab-icon">{icon}</span>
-      <span className="service-tab-text">{id}</span>
+      <span className={styles.serviceTabIcon}>{icon}</span>
+      <span className={styles.serviceTabText}>{id}</span>
     </button>
   );
 };

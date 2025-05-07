@@ -53,13 +53,13 @@ const Home = () => {
       name: 'Adv. Santosh K. Singh',
       role: 'Legal Advisor  ',
       image: './Team/Santosh.jpeg',
-      bio: 'With over 20 years of experience in business strategy and management consulting, Dr. Foster leads our team with expertise in strategic planning, organizational development, and business transformation.',
+      bio: 'Has over 23 years of experience in the domains of Labor Legislation, And Industrial Relations. Human resources, Organization Development. A BHU alumnus who holds a Bachelor of Laws (LLB), an MBA in human resources, an LLM in Labor and Industrial law, and postgraduate degrees in people management and industrial relations. Worked in a number of industries, such as manufacturing of Electric Panel Boards, Pharmaceuticals, Tires, Chemical, and  Service Industries.',
     },
     {
       name: 'P.Mishra',
       role: 'Financial Advisory LeadProperty & Insurance Matters',
       image: './Team/P.Mishra.jpeg',
-      bio: 'Jennifer brings 15+ years of experience in financial strategy, investment banking, and corporate finance. She specializes in helping businesses optimize their financial performance and secure growth capital.',
+      bio: 'Has over 20 years of expertise in Property & Insurance matters and Civil Law. A seasoned legal professional with a robust understanding of real estate regulations, dispute resolution, and claims management. Holds a Bachelor of Laws (LLB) and a Master’s degree specializing in Property and Insurance Law. Has successfully represented clients in matters related to property disputes, insurance claims, and civil litigation. Experience spans across residential, commercial, and industrial property cases, as well as insurance sectors involving life, health, and general insurance.',
     },
   ];
 

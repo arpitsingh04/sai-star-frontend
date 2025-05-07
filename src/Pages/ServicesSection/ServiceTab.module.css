@@ -1,4 +1,4 @@
-.service-tab {
+.serviceTab {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -12,38 +12,38 @@
   color: #6B7280;
 }
 
-.service-tab:hover {
+.serviceTab:hover {
   background-color: #F3F4F6;
   color: #1F2937;
 }
 
-.service-tab-active {
+.serviceTabActive {
   background-color: #E74C3C;
   color: white;
 }
 
-.service-tab-active:hover {
+.serviceTabActive:hover {
   background-color: #c0392b;
   color: white;
 }
 
-.service-tab-icon {
+.serviceTabIcon {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.service-tab-text {
+.serviceTabText {
   font-weight: 500;
   font-size: 0.95rem;
 }
 
 @media (max-width: 640px) {
-  .service-tab {
+  .serviceTab {
     padding: 0.5rem 0.75rem;
   }
   
-  .service-tab-text {
+  .serviceTabText {
     font-size: 0.85rem;
   }
 }

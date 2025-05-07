@@ -1,5 +1,5 @@
 import { CheckCircle } from 'lucide-react';
-import './ServiceItem.css';
+import styles from './ServiceItem.module.css';
 
 interface ServiceItemProps {
   title: string;
@@ -7,9 +7,9 @@ interface ServiceItemProps {
 
 const ServiceItem: React.FC<ServiceItemProps> = ({ title }) => {
   return (
-    <div className="service-item">
-      <CheckCircle size={20} className="service-item-icon" />
-      <span className="service-item-text">{title}</span>
+    <div className={styles.serviceItem}>
+      <CheckCircle size={20} className={styles.serviceItemIcon} />
+      <span className={styles.serviceItemText}>{title}</span>
     </div>
   );
 };

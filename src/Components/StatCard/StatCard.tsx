@@ -13,7 +13,7 @@ const StatCard = ({ icon: Icon, number, suffix = '', label }: StatCardProps) => 
 
   useEffect(() => {
     let start = 0;
-    const duration = 5000; // 5 second
+    const duration = 4000; // 4 second
     const increment = Math.ceil(number / 40);
     const stepTime = duration / (number / increment);
 

@@ -2,7 +2,7 @@ import './ServiceCard.css';
 import { DivideIcon as LucideIcon } from 'lucide-react';
 
 interface ServiceCardProps {
-  icon: LucideIcon;
+  icon: typeof LucideIcon;
   title: string;
   description: string;
 }
